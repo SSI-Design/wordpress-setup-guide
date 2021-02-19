@@ -1,0 +1,51 @@
+<meta name="google-site-verification" content="{GA-SITE-VERIFICATION}" />
+<script>
+var blabberjaxDomainUrl = 'https://{INSTANCE-NAME}.blabberjax.org';
+var BlabberJax = {
+  Settings : {
+    Engage : {
+      SubmitURL : blabberjaxDomainUrl + "/bjx_code/plugins/bjxEngage/Services/FormHandler.asmx/SubmitForm"
+    },
+    Contacts : {
+      SubmitURL : blabberjaxDomainUrl + "/bjx_code/plugins/BjxContacts/Services/Tracker.asmx/CaptureVisit",
+      UserIdCustomDimensionName : "ga:dimension1"
+    }
+  }
+};
+</script>
+<style type="text/css">
+  #bjx-engage-validate-message {
+    display: none;
+  }
+  
+  .bjx-engage-form p:first-of-type {
+    display: none;
+  }
+  
+  .bjxEngageHandler {
+    z-index: 5;
+    background: linear-gradient(rgb(255, 149, 0) 0%, rgb(255, 94, 58) 100%);
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 20px 0px;
+    padding-left: 32px;
+    border-radius: 5px;
+    padding-right: 32px;
+    border:2px solid rgba(118, 118, 118, 0.3);
+    margin-left:0;
+    cursor: pointer;
+  }
+  
+  .bjx-engage-processing {
+    display: none;
+  }
+  
+  .bjx-engage-processing div {
+    z-index: 999;
+  }
+  
+</style>
