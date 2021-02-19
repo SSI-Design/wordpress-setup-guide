@@ -18,15 +18,12 @@
  - {INSTANCE-NAME}: The instance name of your BlabberJax scheduler instance
  - {GA-TRACKER-ID}: The Google Analytics classic tracking id send by your SSI Design representative
 3. Add the [header code](scripts/header.html) to the header of your website.
-
-*Recommendation: use [Custom CSS and JS](https://wordpress.org/plugins/custom-css-js/) to ensure this is configured across all pages of your site.*
+    *Recommendation: use [Custom CSS and JS](https://wordpress.org/plugins/custom-css-js/) to ensure this is configured across all pages of your site.*
 4. Add this [body code](scripts/body.html) to the end of the body of your website. 
-
-*Recommendation: use [Custom CSS and JS](https://wordpress.org/plugins/custom-css-js/) to ensure this is configured across all pages of your site.*
+    *Recommendation: use [Custom CSS and JS](https://wordpress.org/plugins/custom-css-js/) to ensure this is configured across all pages of your site.*
 5. Identify and send all categories you would like to post articles to by doing the following:
-
-  a. Navigate to https://{domain}.com/wp-json/wp/v2/categories  
-  b. Download the response JSON and send it to [client.marketing@blabberjax.com](mailto:client.marketing@blabberjax.com)
+    a. Navigate to https://{domain}.com/wp-json/wp/v2/categories  
+    b. Download the response JSON and send it to [client.marketing@blabberjax.com](mailto:client.marketing@blabberjax.com)
 6. Once your categories have been configured in your BlabberJax Content Scheduler instance, login and schedule a test post to ensure publishing is working properly!
 
 ## CSS & Customization
