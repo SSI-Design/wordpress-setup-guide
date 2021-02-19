@@ -12,6 +12,7 @@
  - Optional: 
    - [Custom CSS and JS](https://wordpress.org/plugins/custom-css-js/)
 2. Setup a user account for “SSI Design” and send the account information to [client.marketing@blabberjax.com](mailto:client.marketing@blabberjax.com).
+ - Note: if you are using [iThemes Security](https://ithemes.com/security/) or other tools, you may need to give this account specific access to Wordpress API endpoints. 
 3. Replace the following variables in all [script](/scripts) files:
  - {GA-SITE-VERIFICATION}: The Google Webmaster Tools site verification id sent by your SSI Design representative
  - {INSTANCE-NAME}: The instance name of your BlabberJax scheduler instance
