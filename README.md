@@ -38,4 +38,4 @@ To disable BlabberJax engage on your website, set:
 
 ## Common Issues
 1. I can't publish to Wordpress
-Typically, this is due to the JWT plugin not being configured correctly.  Be sure to follow the setup guide (here)[https://wordpress.org/plugins/jwt-auth/]
+Typically, this is due to the JWT plugin not being configured correctly.  Be sure to follow the setup guide [here](https://wordpress.org/plugins/jwt-auth/).
