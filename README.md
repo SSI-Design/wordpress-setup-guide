@@ -6,16 +6,15 @@
 
 ## BlabberJax Scheduler Setup
 1. Install the latest version of the following plugins: 
- - Required:
    - [JWT Auth](https://wordpress.org/plugins/jwt-auth/)
    - [YoastSEO](https://yoast.com/wordpress/plugins/)
    - [Custom CSS and JS](https://wordpress.org/plugins/custom-css-js/)
 2. Setup a user account for “SSI Design” and send the account information to [client.marketing@blabberjax.com](mailto:client.marketing@blabberjax.com).
- - Note: if you are using [iThemes Security](https://ithemes.com/security/) or other tools, you may need to give this account specific access to Wordpress API endpoints. 
+   - Note: if you are using [iThemes Security](https://ithemes.com/security/) or other tools, you may need to give this account specific access to Wordpress API endpoints. 
 3. Download all all [script](/scripts) files and replace the following variables in each file:
- - {GA-SITE-VERIFICATION}: The Google Webmaster Tools site verification id sent by your SSI Design representative
- - {INSTANCE-NAME}: The instance name of your BlabberJax scheduler instance
- - {GA-TRACKER-ID}: The Google Analytics classic tracking id send by your SSI Design representative
+   - {GA-SITE-VERIFICATION}: The Google Webmaster Tools site verification id sent by your SSI Design representative
+   - {INSTANCE-NAME}: The instance name of your BlabberJax scheduler instance
+   - {GA-TRACKER-ID}: The Google Analytics classic tracking id send by your SSI Design representative
 3. Add the [header code](scripts/header.html) to the header of your website.
     *Recommendation: use [Custom CSS and JS](https://wordpress.org/plugins/custom-css-js/) to ensure this is configured across all pages of your site.*
 4. Add this [body code](scripts/body.html) to the end of the body of your website. 
