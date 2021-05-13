@@ -5,7 +5,7 @@
 2. Validate that your API is functioning properly, by visiting {DOMAIN}.com/wp-json
 
 ## BlabberJax Scheduler Setup
-1. Install the latest version of the following plugins: 
+1. Install and configure the latest version of the following plugins: 
    - [JWT Auth](https://wordpress.org/plugins/jwt-auth/)
    - [YoastSEO](https://yoast.com/wordpress/plugins/)
    - [Custom CSS and JS](https://wordpress.org/plugins/custom-css-js/)
